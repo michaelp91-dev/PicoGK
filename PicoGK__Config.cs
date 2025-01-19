@@ -1,4 +1,4 @@
-﻿//
+﻿﻿//
 // SPDX-License-Identifier: Apache-2.0
 //
 // PicoGK ("peacock") is a compact software kernel for computational geometry,
@@ -6,7 +6,7 @@
 //
 // For more information, please visit https://picogk.org
 // 
-// PicoGK is developed and maintained by LEAP 71 - © 2023-2025 by LEAP 71
+// PicoGK is developed and maintained by LEAP 71 - © 2023 by LEAP 71
 // https://leap71.com
 //
 // Computational Engineering will profoundly change our physical world in the
@@ -39,13 +39,13 @@ namespace PicoGK
     {
         // PicoGK Runtime to load
 
-        public const string strPicoGKLib = "picogk.1.7"; // dll or dylib
+        // public const string strPicoGKLib = "picogk.1.1"; // dll or dylib
 
         // if you want to load it from a specific location instead of
         // a standard system path, you can specify it as well
         // You need to include the full path, filename and extension such as:
         //
-        // public const string strPicoGKLib = "/Users/myuser/PicoGKRuntime/picogk.1.0.dylib"
+        public const string strPicoGKLib = "/usr/local/lib/picogk.1.7.so";
         //
     }
 }
