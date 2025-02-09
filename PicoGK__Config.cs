@@ -45,7 +45,7 @@ namespace PicoGK
         // a standard system path, you can specify it as well
         // You need to include the full path, filename and extension such as:
         //
-        public const string strPicoGKLib = "/picogk.so";
+        public const string strPicoGKLib = "/usr/local/lib/picogk.so";
         //
     }
 }
